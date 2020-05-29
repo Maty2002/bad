@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
 	
 	src="c:\\palindromy.txt";
 	
-	plik1.open("c:\\palindromy.txt");
+	plik1.open(src);
 	
 	if(plik1.good()) {
 		 while(!plik1.eof()){
